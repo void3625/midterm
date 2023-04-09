@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #d0efb1;
+    
+  }
+
+  header {
+    background-color:#0b3954;
+    color: #d0efb1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  h1{
+    font-family: 'Noto Serif TC', serif;
+  }
+  
+  footer{
+    background-color: #0b3954;
+    text-align: center;
+    padding: 10px;
+    color: #d0efb1;
+    clear: left;
+  }
+
+  .info{
+    padding: 50px;
+  }
+
+  img.listening, img.games, img.guitar{
+    margin-right: 20px; 
+  }
+  h3 {
+    display: inline;
+    margin-right: 20px; /* 調整右邊的間距 */
+  }
+  
+  div span {
+    display: inline;
+    color: #57805e;
+    
+  }
+
+  h1{
+    text-align: center;
+    font-style: italic;
+  }
+
+  .animated-text {
+    animation: blink 2s linear infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      color: yellow;
+      text-shadow: 0 0 10px white;
+    }
+  }
+  
+
+  .gradient {
+    background-color: #c3efcb;
+    background-image: linear-gradient(to right, #83f154bf 0%, #68b0ebc4 100%);
+    text-align: center;
+  }
+  
+  h2{
+    font-family:'Noto Serif TC', serif; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#77b69d;
+  }
+
+  .ken1 {
+    transition: transform 1s ease-in-out; 
+    border-radius:  1000px;
+  }
+  
+  .ken1:hover {
+    transform: rotate(360deg); 
+  }
+ 
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4CAF50;
+    animation: progress-bar-stripes 5s linear infinite;
+  }
+  
+  @keyframes progress-bar-stripes {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 50px;
+    }
+  }
+  
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 1em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    align-content: center;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  .card {
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+
+  .card1 {
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+    
+  }
+
+  .card2 {
+    width: 1200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+   
+    border-radius: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+  
+    
+  }
+
+  .vid{
+    position: relative;
+    width: 100%;
+    max-width: 990px; /* 設置最大寬度 */
+    height: 0;
+    padding-bottom: 56.25%; /* 設置高度為寬度的 16:9 比例 */
+   
+  }
+  .vid video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .img1{
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  li{
+    margin: auto;
+    padding: 10px;
+   
+  }
